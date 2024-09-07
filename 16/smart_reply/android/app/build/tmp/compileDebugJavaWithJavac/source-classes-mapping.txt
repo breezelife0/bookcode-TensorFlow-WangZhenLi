@@ -1,0 +1,10 @@
+org/tensorflow/lite/examples/smartreply/AssetsUtil.java
+ org.tensorflow.lite.examples.smartreply.AssetsUtil
+org/tensorflow/lite/examples/smartreply/MainActivity.java
+ org.tensorflow.lite.examples.smartreply.MainActivity
+org/tensorflow/lite/examples/smartreply/SmartReplyClient.java
+ org.tensorflow.lite.examples.smartreply.SmartReplyClient
+org/tensorflow/lite/examples/smartreply/SmartReply.java
+ org.tensorflow.lite.examples.smartreply.SmartReply
+org/tensorflow/lite/examples/smartreply/BuildConfig.java
+ org.tensorflow.lite.examples.smartreply.BuildConfig

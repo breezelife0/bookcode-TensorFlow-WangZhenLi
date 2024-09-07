@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3 Copyright 2019 The TensorFlow Authors. All Rights Reserved.
+4
+5 Licensed under the Apache License, Version 2.0 (the "License");
+6 you may not use this file except in compliance with the License.
+7 You may obtain a copy of the License at
+8
+9     http://www.apache.org/licenses/LICENSE-2.0
+10
+11 Unless required by applicable law or agreed to in writing, software
+12 distributed under the License is distributed on an "AS IS" BASIS,
+13 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14 See the License for the specific language governing permissions and
+15 limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="org.tensorflow.lite.examples.smartreply.SmartReply"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="19"
+23-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="28" />
+24-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+29
+30    <application
+30-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:20:3-37:17
+31        android:allowBackup="true"
+31-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:21:7-33
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] C:\Users\apple\.gradle\caches\transforms-3\5c81b2bfb96e2db9c19444749cd55a33\transformed\core-1.1.0\AndroidManifest.xml:24:18-86
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:22:7-41
+35        android:label="@string/tfe_sr_app_name"
+35-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:23:7-46
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:25:7-52
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme.SmartReply" >
+38-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:24:7-49
+39        <activity
+39-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:27:5-36:16
+40            android:name="org.tensorflow.lite.examples.smartreply.MainActivity"
+40-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:28:9-37
+41            android:configChanges="orientation|keyboardHidden|screenSize"
+41-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:29:9-70
+42            android:screenOrientation="portrait"
+42-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:31:9-45
+43            android:windowSoftInputMode="adjustResize" >
+43-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:30:9-51
+44            <intent-filter>
+44-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:32:7-35:23
+45                <action android:name="android.intent.action.MAIN" />
+45-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:33:9-60
+45-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:33:17-58
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:34:9-68
+47-->E:\123\123\smart_reply\android\app\src\main\AndroidManifest.xml:34:19-66
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>

@@ -1,0 +1,27 @@
+//需要下载TF Lite模型以进行智能回复.
+task downloadLiteModel {
+    def tempFile = new File(buildDir, project.ext.LITE_MODEL_NAME)
+    //下载并复制到目标文件夹，无需覆盖.
+    download {
+        src project.ext.LITE_MODEL_URL
+        dest tempFile
+        overwrite false
+    }
+    for (dir in project.ext.LITE_MODEL_DIRS) {
+        if (!new File(dir, project.ext.LITE_MODEL_NAME).exists()) {
+            copy {
+                from tempFile
+                into dir
+            }
+        }
+    }
+}
+
+//下载定制ops的预构建AAR包
+task downloadAAR {
+    download {
+        src project.ext.AAR_URL
+        dest project.ext.AAR_PATH
+        overwrite false
+    }
+}
