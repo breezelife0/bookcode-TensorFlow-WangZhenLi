@@ -8,8 +8,8 @@ import csv
 import time
 
 #训练图片的路径
-train_dir = 'pic\\train'
-test_dir = 'pic\\test'
+train_dir = 'pic/train'
+test_dir = 'pic/test'
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 
 

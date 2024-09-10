@@ -7,7 +7,7 @@ import pathlib
 import random
 import matplotlib.pyplot as plt
 
-data_root = pathlib.Path('gesture_recognition\Dataset')
+data_root = pathlib.Path('gesture_recognition/Dataset')
 print(data_root)
 for item in data_root.iterdir():
  print(item)
